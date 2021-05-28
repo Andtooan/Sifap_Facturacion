@@ -1,6 +1,6 @@
 const Error404 = () => {
     const view = `
-        <div class="error404">
+        <div class="main-error404">
             <h2>Error 404: Not Found</h2>
         </div>
     `;
