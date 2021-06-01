@@ -14,7 +14,8 @@ aside {
 .aside-logo img {
   width: 100%;
 }
-aside figure {
+aside figure, .aside-logo {
+  display: block;
   margin-bottom: 20px;
 }
 aside figure img {

@@ -1,8 +1,9 @@
 const Aside = () => {
   let view = `
-    <figure class="aside-logo">
-      <img src="https://i.ibb.co/BZq1pjn/factura-master.png" alt="Factura Master image">
-    </figure>
+    <picture class="aside-logo">
+      <source media="(min-width: 1024px)" srcset="https://i.ibb.co/BZq1pjn/factura-master.png">
+      <img src="https://i.ibb.co/h1hs05Y/IMG-20210526-183604-2.png" alt="factura master image">
+    </picture>
     <figure>
       <img src="https://i.ibb.co/NsBQLL2/circle-user.png" alt="user image">
     </figure>
