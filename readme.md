@@ -1,14 +1,14 @@
 # How to use this repository
-hacer clone del repo
+Clone the repo
 
-#### Instalar todas las dependencias (consola)
+#### Install all dependencies (console)
 
 	npm install
 
-#### Correr localhost (consola)
+#### Run localhost (console)
 
 	npm run start
 
-#### Crear archivos de produccion
+#### Create production archives
 
 	npm run build
