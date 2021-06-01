@@ -1,0 +1,16 @@
+aside {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+aside figure img {
+  display: none;
+}
+.nav-aside {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  list-style: none;
+}
