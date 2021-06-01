@@ -1,2 +1,3 @@
 # Sifap_Facturacion
-El propósito general de este proyecto es poder emitir los comprobantes fiscales de personas o instituciones de manera automática sin importar el país de procedencia al momento de generar facturas. Para llevar a cabo esta automatización el sistema contará con un mecanismo el cual permita configurar los componentes requeridos por cada comprobante requerido por país que necesite utilizar el sistema.
+
+The general purpose of this project is to be able to issue the tax invoices for natural or legal persons automatically regardless of the country of origin at the time of generating invoices. To carry out this automation, the system will have an algorithm that allows the cofiguration of the particular components required for each country.
