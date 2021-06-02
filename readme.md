@@ -1,14 +1,21 @@
 # How to use this repository
-hacer clone del repo
 
-#### Instalar todas las dependencias (consola)
+#### Clone the project
+
+	git clone git@github.com:Andtooan/Sifap_Facturacion.git
+	
+#### Go to the project directory
+
+	cd Sifap_Facturacion
+
+#### Install all dependencies (console)
 
 	npm install
 
-#### Correr localhost (consola)
+#### Run localhost (console)
 
 	npm run start
 
-#### Crear archivos de produccion
+#### Create production archives
 
 	npm run build
