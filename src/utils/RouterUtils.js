@@ -20,6 +20,7 @@ const resolveRoute = (hash) => {
     : hash == "stats" ? `/stats`
     : hash == "2fa" ? `/2fa`
     : hash == ":id" ? `/view/:id`
+    : hash == "edit" ? `/edit`
     : '/';
   return route;
 }
