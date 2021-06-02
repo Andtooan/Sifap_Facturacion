@@ -1,4 +1,5 @@
 @import './resets';
+@import './scss/libs/colors';
 @import './scss/dashboard/dashboard';
 @import './scss/error404/error404';
 @import './scss/login/login';
@@ -7,7 +8,6 @@
 @import './scss/statistics/statistics';
 @import './scss/two_factor/two_factor';
 @import './scss/view_invoice/view_invoice';
-@import './scss/libs/colors';
 
 @media (min-width: 1024px) {
   @import './app_desktop';
