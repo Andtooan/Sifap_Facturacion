@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap');
+$primary-color: #2057B5;
+$secondary-color: #4275A5;
+$border-color: #AEAEAE;
+$subdued-color: #656565;
+$color-clear: white;
+
+.main-twoFactor {
+    width: 75%;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    &__card{
+        min-width: 320px;
+        padding: 25px;
+    }
+    &__title{
+        font-size: 1.8rem;
+        margin: 5px 0;
+    }
+    &__text{
+        font-size: 1.3rem;
+        margin: 5px 0;
+    }
+    img{
+        width: 127px;
+    }
+    input{
+        width: 40px;
+        height: 50px;
+        border: none;
+        margin: 10px;
+        border-radius: 8px;
+        font-size: 2.4rem;
+        background-color: $border-color;
+        text-align: center;
+    }
+    &__button{
+        margin: 10px 15px;
+        border: none;
+        color: $color-clear;
+        width: 160px;
+        height: 40px;
+        background-color: $primary-color;
+        border-radius: 10px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.4rem;
+    }
+}
