@@ -52,6 +52,10 @@ html {
   border-radius: 10px;
   font-family: "Quicksand", sans-serif;
   font-size: 1.4rem;
+  cursor: pointer;
+}
+.main-twoFactor__button:hover {
+  background-color: #4275A5;
 }
 
 @media (min-width: 1024px) {

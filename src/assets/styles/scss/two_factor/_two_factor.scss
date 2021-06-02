@@ -46,5 +46,9 @@ $color-clear: white;
         border-radius: 10px;
         font-family: 'Quicksand', sans-serif;
         font-size: 1.4rem;
+        cursor: pointer;
+    }
+    &__button:hover {
+        background-color: $secondary-color;
     }
 }
