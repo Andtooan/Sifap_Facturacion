@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main-login {
+  display: flex;
+}
+
+.main-login a {
+  text-decoration: none;
+}
+
+.main-login .aside {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #2057B5;
+  padding: 8rem;
+  flex: 0 0 30%;
+  justify-content: space-around;
+}
+
+.main-login .aside .titulo {
+  color: white;
+  font-size: 90px;
+  text-align: center;
+}
+
+.main-login .aside hr {
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.main-login .aside .subtitulo {
+  color: white;
+  font-size: 76px;
+  text-align: center;
+}
+
+.main-login .aside .registro {
+  padding: 1rem;
+  border-radius: 50px;
+  border: none;
+  width: 50%;
+  align-self: center;
+}
+
+.main-login .registroContent {
+  display: flex;
+  flex: 0 0 70%;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-login .registroContent .imagenLogin {
+  display: flex;
+  width: 30%;
+  margin-top: 10rem;
+}
+
+.main-login .registroContent .formulario {
+  margin-top: 12%;
+  width: 20%;
+}
+
+.main-login .registroContent .formulario form {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-login .registroContent .formulario form input[type="text"] {
+  padding: 2rem;
+  background-color: #F5F5F5;
+  border: none;
+  margin-bottom: 2rem;
+  width: 100%;
+  border-radius: 50px;
+}
+
+.main-login .registroContent .formulario form input[type="password"] {
+  padding: 2rem;
+  background-color: #F5F5F5;
+  border: none;
+  border-radius: 50px;
+  width: 100%;
+}
+
+.main-login .registroContent .formulario form input[type="submit"] {
+  padding: 1.5rem 4rem;
+  margin-top: 60%;
+  background-color: #2057B5;
+  border-radius: 50px;
+  border: none;
+  color: white;
+}
+
+/*Media queries*/
+a {
+  color: black;
+  font-size: 2rem;
+  margin-left: 10px;
+}

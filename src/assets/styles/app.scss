@@ -1,0 +1,22 @@
+@import './resets';
+@import './scss/dashboard/dashboard';
+@import './scss/error404/error404';
+@import './scss/login/login';
+@import './scss/new_invoice/new_invoice';
+@import './scss/signup/signup';
+@import './scss/statistics/statistics';
+@import './scss/two_factor/two_factor';
+@import './scss/view_invoice/view_invoice';
+@import './scss/libs/colors';
+@import './scss/libs/mixins';
+@import './scss/libs/variables';
+
+@media (min-width: 1024px) {
+  @import './app_desktop';
+}
+
+a {
+  color: black;
+  font-size: 2rem;
+  margin-left: 10px;
+}
