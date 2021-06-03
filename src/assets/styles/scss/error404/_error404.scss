@@ -1,5 +1,16 @@
-.main-error404 img {
+.main-error404 {
     margin: 100px auto;
-    min-width: 360px;
+    width: 40%;
+    img {
+    width: 300px;
+    }
+}
+
+@media (min-width: 768px) {
+    .main-error404 {
     width: 50%;
+        img {
+            width: 450px;
+        }
+    } 
 }

@@ -9,12 +9,27 @@ html {
   font-size: 62.5%;
 }
 
-.main-error404 img {
+.main-error404 {
   margin: 100px auto;
-  min-width: 360px;
-  width: 50%;
+  width: 40%;
+}
+.main-error404 img {
+  width: 300px;
 }
 
+@media (min-width: 768px) {
+  .main-error404 {
+    width: 50%;
+  }
+  .main-error404 img {
+    width: 450px;
+  }
+}
+@media (min-width: 1024px) {
+  .main-error404 img {
+    width: 600px;
+  }
+}
 a {
   color: black;
   font-size: 2rem;
