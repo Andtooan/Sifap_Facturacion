@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -262,6 +263,58 @@ aside figure img, .aside-logo {
     margin-left: 10px;
   }
 }
+.main-twoFactor {
+  width: 50%;
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+.main-twoFactor__card {
+  min-width: 320px;
+  margin: 50px 0 0 0;
+  padding: 25px;
+}
+.main-twoFactor__title {
+  font-size: 1.8rem;
+  margin: 5px 0;
+}
+.main-twoFactor__text {
+  font-size: 1.3rem;
+  margin: 5px 0;
+}
+.main-twoFactor img {
+  width: 127px;
+}
+.main-twoFactor input {
+  width: 40px;
+  height: 50px;
+  border: none;
+  margin: 10px;
+  border-radius: 8px;
+  font-size: 2.4rem;
+  background-color: rgba(174, 174, 174, 0.5);
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(101, 101, 101, 0.2), 0 6px 10px 0 rgba(101, 101, 101, 0.1);
+          box-shadow: 0 4px 8px 0 rgba(101, 101, 101, 0.2), 0 6px 10px 0 rgba(101, 101, 101, 0.1);
+}
+.main-twoFactor__button {
+  margin: 10px 15px;
+  border: none;
+  color: white;
+  width: 160px;
+  height: 40px;
+  background-color: #4275A5;
+  border-radius: 10px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.main-twoFactor__button:hover {
+  background-color: #2057B5;
+}
+
 @media (min-width: 1024px) {
   aside {
     display: -webkit-box;
@@ -489,59 +542,7 @@ aside figure img, .aside-logo {
   .buttons-signup button:nth-child(2) {
     display: none;
   }
-.main-twoFactor {
-  width: 50%;
-  height: 100vh;
-  margin: 0 auto;
-  text-align: center;
-  font-family: "Quicksand", sans-serif;
-}
-.main-twoFactor__card {
-  min-width: 320px;
-  margin: 50px 0 0 0;
-  padding: 25px;
-}
-.main-twoFactor__title {
-  font-size: 1.8rem;
-  margin: 5px 0;
-}
-.main-twoFactor__text {
-  font-size: 1.3rem;
-  margin: 5px 0;
-}
-.main-twoFactor img {
-  width: 127px;
-}
-.main-twoFactor input {
-  width: 40px;
-  height: 50px;
-  border: none;
-  margin: 10px;
-  border-radius: 8px;
-  font-size: 2.4rem;
-  background-color: rgba(174, 174, 174, 0.5);
-  text-align: center;
-  text-transform: uppercase;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(101, 101, 101, 0.2), 0 6px 10px 0 rgba(101, 101, 101, 0.1);
-          box-shadow: 0 4px 8px 0 rgba(101, 101, 101, 0.2), 0 6px 10px 0 rgba(101, 101, 101, 0.1);
-}
-.main-twoFactor__button {
-  margin: 10px 15px;
-  border: none;
-  color: white;
-  width: 160px;
-  height: 40px;
-  background-color: #4275A5;
-  border-radius: 10px;
-  font-family: "Quicksand", sans-serif;
-  font-size: 1.4rem;
-  cursor: pointer;
-}
-.main-twoFactor__button:hover {
-  background-color: #2057B5;
-}
 
-@media (min-width: 1024px) {
   .main-twoFactor__title {
     font-size: 3.6rem;
   }
@@ -562,5 +563,4 @@ aside figure img, .aside-logo {
     height: 60px;
     font-size: 2.1rem;
   }
-}
 }

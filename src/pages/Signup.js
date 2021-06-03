@@ -7,7 +7,7 @@ const Signup = () => {
           <img src="https://i.ibb.co/h1hs05Y/factura-master2.png" alt="factura master logo">
         </picture>
         <h1>¿Ya eres cliente?</h1>
-        <button>INICIA SESIÒN</button>
+        <button>INICIA SESIÓN</button>
       </aside>
       <div class="signup-content">
         <figure class="signup-illustration">
