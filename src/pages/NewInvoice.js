@@ -17,13 +17,13 @@ const NewInvoice = () => {
         <div class="formulario-newinvoice">
           <form action="">
             <h2>Datos cliente</h2>
-            <input type="text" placeholder="Name">
-            <input type="adress" placeholder="Direcciòn">
-            <input type="list" placeholder="Paìs">
+            <input type="text" placeholder="Nombre">
+            <input type="adress" placeholder="Dirección">
+            <input type="list" placeholder="País">
             <input type="id" placeholder="ID">
             <h2>Conceptos</h2>
             <input type="text" placeholder="Producto o servicio">
-            <input type="text" placeholder="Descripcion">
+            <input type="text" placeholder="Descripción">
             <input type="text" placeholder="Cantidad">
             <input type="text" placeholder="Precio unitario">
           </form>
