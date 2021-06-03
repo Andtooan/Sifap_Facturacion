@@ -6,6 +6,8 @@ import Statistics from '../pages/Statistics';
 import TwoFactor from '../pages/TwoFactor';
 import ViewInvoice from '../pages/ViewInvoice';
 import Error404 from '../pages/Error404';
+import EditProfile from '../pages/EditProfile';
+
 
 const routes = {
   '/': Login,
@@ -15,7 +17,8 @@ const routes = {
   '/stats': Statistics,
   '/2fa': TwoFactor,
   '/view/:id': ViewInvoice,
-  '/error': Error404
+  '/error404': Error404,
+  '/edit': EditProfile
 };
 
 export default routes;
