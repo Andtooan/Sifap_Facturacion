@@ -61,6 +61,22 @@ aside figure img, .aside-logo {
   width: 70px;
 }
 
+.main-error404 {
+  margin: 100px auto;
+  width: 40%;
+}
+.main-error404 img {
+  width: 300px;
+}
+
+@media (min-width: 768px) {
+  .main-error404 {
+    width: 50%;
+  }
+  .main-error404 img {
+    width: 450px;
+  }
+}
 .main-newinvoice {
   width: 100%;
   height: auto;
@@ -367,6 +383,10 @@ aside figure img, .aside-logo {
 
   .nav-aside li {
     margin-bottom: 20px;
+  }
+
+  .main-error404 img {
+    width: 600px;
   }
 
   .main-newinvoice {
