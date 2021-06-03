@@ -1,5 +1,12 @@
 # How to use this repository
-Clone the repo
+
+#### Clone the project
+
+	git clone git@github.com:Andtooan/Sifap_Facturacion.git
+	
+#### Go to the project directory
+
+	cd Sifap_Facturacion
 
 #### Install all dependencies (console)
 
