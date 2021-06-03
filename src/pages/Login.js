@@ -8,6 +8,7 @@ const Login = () => {
       <a href="/#/2fa">2fa</a>
       <a href="/#/view/123">view</a>
       <a href="/#/error404">error404</a>
+      <a href="/#/edit">edit</a>
     </div>
   `;
 
