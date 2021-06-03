@@ -1,0 +1,67 @@
+.main-signup {
+  display: grid;
+  grid-template-columns: minmax(300px, 25%) 1fr;
+  padding: 0;
+  min-height: 100vh;
+}
+.main-signup aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $primary-color;
+  text-align: center;
+}
+.main-signup aside picture {
+  margin-bottom: 30px;
+}
+.main-signup aside h1 {
+  font-size: 5rem;
+  color: white;
+  margin-bottom: 40px;
+}
+.main-signup aside button {
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  box-shadow:0 4px 4px rgba(0,0,0,.15);
+}
+.signup-illustration {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+.signup-illustration img {
+  width: 320px;
+}
+.signup-illustration img:nth-child(2) {
+  display: none;
+}
+.signup-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 100px;
+}
+.signup-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 10px;
+}
+.signup-form input, .signup-form select {
+  margin-bottom: 0;
+  padding: 0 20px;
+  color: $subdued-color;
+}
+.buttons-signup {
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+.buttons-signup button:nth-child(2) {
+  display: none;
+}
+

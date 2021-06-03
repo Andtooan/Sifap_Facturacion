@@ -1,0 +1,73 @@
+.main-newinvoice {
+  width: 100%;
+  height: auto;
+}
+.main-newinvoice h1{
+  display: none;
+}
+.logo-body-newinvoice {
+  margin-bottom: 20px;
+}
+.logo-generate {
+  margin-bottom: 20px;
+}
+.logo-generate img, .logo-generate p {
+  cursor: pointer;
+}
+.newinvoice-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 15px;
+  padding-bottom: 70px;
+}
+.formulario-newinvoice {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.formulario-newinvoice form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formulario-newinvoice form h2 {
+  font-size: 2.1rem;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.formulario-newinvoice form input {
+  width: 100%;
+  height: 45px;
+  padding: 10px;
+  margin-bottom: 10px;
+  outline: none;
+  border: none;
+  background-color: $input-color;
+  border-radius: 20px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+}
+.formulario-newinvoice form input:focus {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.form-newinvoice-buttons {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.form-newinvoice-buttons button {
+  width: 85px;
+  height: 30px;
+  margin-left: 10px;
+  border: none;
+  color: white;
+  background-color: $primary-color;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .newinvoice-content {
+    padding: 20px 15%;
+    padding-bottom: 80px;
+  }
+}
