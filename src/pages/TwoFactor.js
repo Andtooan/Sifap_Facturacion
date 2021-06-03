@@ -14,7 +14,7 @@ const TwoFactor = () => {
         <button class="main-twoFactor__button" type="button">Enviar</button>
         <button class="main-twoFactor__button" type="button">Reenviar código</button>
       </section>
-     </div>
+    </div>
   `
   return view
 };
