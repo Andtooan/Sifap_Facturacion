@@ -1,6 +1,6 @@
 const Statistics = () => {
   let view = `
-  <header class="header">
+  <div class="header">
     
   <picture class="aside-logo">
     <source media="(min-width: 1024px)" srcset="https://i.ibb.co/BZq1pjn/factura-master.png">
@@ -26,7 +26,7 @@ const Statistics = () => {
     </picture></a></li>
           </ul>
       </nav>
-</header>    
+</div>    
  
   <div class="stadistics"> 
     <div class="stadistics__items"> 
