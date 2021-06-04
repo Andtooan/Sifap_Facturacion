@@ -1,0 +1,199 @@
+
+.logo-login {
+    display: flex;
+    justify-content: center;
+}
+.logo-login img {
+    width: 100%;
+}
+.main-login {
+    width: 100%;
+    display: flex;
+
+    a{
+        text-decoration: none;
+        width: 100%;
+
+        @include telefono {
+            text-decoration: none; 
+        }
+    }
+
+    .aside {
+        display: none;
+        @include telefono {
+                display: flex;
+                flex-direction: column;
+                height: 100vh;
+                background-color:$primary-color;
+                padding: 8rem;
+                flex: 0 0 30%;
+                justify-content: space-around;
+        }
+
+        .titulo {
+            color: white;
+            font-size: 90px;
+            text-align: center;
+        }
+
+        hr {
+            border: 2px solid white;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .subtitulo {
+            color: white;
+            font-size: 76px;
+            text-align: center;
+        }
+
+        .registro {
+            padding: 1rem;
+            border-radius: 50px;
+            border:none;
+            width: 50%;
+            align-self: center;
+        }
+
+    }
+
+   .registroContent {
+        display: flex;
+        flex: 0 0 100%;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+
+        @include telefono {
+            display: flex;
+            flex: 0 0 70%;
+            align-items: center;
+            flex-direction: column;
+        }
+
+
+    .imagenLogin {
+        display: flex;
+        width: 90%;
+
+        @include telefono {
+            display: flex;
+            width: 30%;
+            margin-top: 10rem;
+        }
+    }
+
+    .tituloMobil {
+        font-size: 58px;
+        text-align: center;
+
+        @include telefono {
+            display: none;
+        }
+    }
+
+    .barraMobil {
+        border: 2px solid gray;
+        border-radius: 10px;
+        width: 200px;
+
+        @include telefono {
+            display: none;
+        } 
+    }
+
+    .formulario {
+        width: 80%;
+
+        @include telefono {
+            width: 40%;
+        }
+
+        form{
+            width: 100%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+
+            @include telefono {
+                margin-top: 90px;
+            }
+
+            input[type="text"]{
+                padding: 2rem;
+                background-color: #F5F5F5;
+                border: none;
+                margin-bottom: 2rem;
+                width: 100%;
+                border-radius: 50px;
+                -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+                box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+            }
+
+            input[type="password"]{
+                padding: 2rem;
+                background-color: #F5F5F5;
+                border: none;
+                border-radius: 50px;
+                width: 100%;
+                -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+                box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+            }
+
+            .iniciarSesion{
+                padding: 1.5rem 4rem;
+                background-color:$primary-color;
+                border-radius: 50px;
+                border: none;
+                width: 100%;
+                font-size: 2rem;
+                margin-top: 34px;
+
+                a {
+                    color: white;
+                }
+
+                @include telefono {
+                    padding: 1.5rem 4rem;
+                    margin-top: 26%;
+                    background-color:$primary-color;
+                    border-radius: 50px;
+                    border: none;
+                    color: white;
+
+                    a {
+                        color: white;
+                    }
+                }
+            }
+
+            .registroMobil {
+                padding: 1.5rem 4rem;
+                border-radius: 50px;
+                border:none;
+                width: 50%;
+                align-self: center;
+                background-color:$primary-color;
+                width: 100%;
+                margin-top: 10px;
+
+                a {
+                    color: white;
+                }
+
+                @include telefono {
+                    display: none;
+                }
+            }
+    
+        }
+    }
+
+   }
+
+}
