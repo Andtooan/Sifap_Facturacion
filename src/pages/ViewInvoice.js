@@ -1,6 +1,6 @@
 const ViewInvoice = () => {
   let view = `
-  <header class="header">
+  <div class="header">
     
   <picture class="aside-logo">
   <source media="(min-width: 1024px)" srcset="https://i.ibb.co/BZq1pjn/factura-master.png">
@@ -26,7 +26,7 @@ const ViewInvoice = () => {
   </picture></a></li>
           </ul>
       </nav>
-</header>     
+</div>     
 <div class="graphic__products"> 
   <div class="graphic__products--items">
    <p> Ultima Factura </p>
