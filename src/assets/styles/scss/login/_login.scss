@@ -1,8 +1,15 @@
 @import '../libs/colors';
 @import '../libs/variables';
 @import '../libs/mixins';
-
+.logo-login {
+    display: flex;
+    justify-content: center;
+}
+.logo-login img {
+    width: 100%;
+}
 .main-login {
+    width: 100%;
     display: flex;
 
     a{
@@ -16,7 +23,6 @@
 
     .aside {
         display: none;
-    
         @include telefono {
                 display: flex;
                 flex-direction: column;
