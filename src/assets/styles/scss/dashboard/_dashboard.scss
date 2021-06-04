@@ -169,7 +169,7 @@
                         padding: 20px;
                         border-radius: 20px;
 
-                        @include {
+                        @include telefono{
                             flex-direction:column;
                         }
                         .estadisticaImagen {
