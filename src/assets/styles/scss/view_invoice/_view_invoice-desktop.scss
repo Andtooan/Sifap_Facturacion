@@ -3,18 +3,6 @@
     padding: 0;
     } 
     
-    body {
-        display: grid;
-        grid-template-columns:  200px 1fr 1fr 1fr 10px;
-        grid-template-rows: 10px 2fr 50px 1fr 1fr ;
-        grid-gap:20px ;
-        font-family: "Quicksand", sans-serif;
-        min-width: 600px; 
-    }
-    @media screen and (max-width: 768px) {
-        .stadistics {
-            grid-column: 1/ -1;
-        }
     
     }
     
@@ -171,10 +159,6 @@
   
 
 
-    .graphic__costumers--items {
-        
-    }
-    
     .graphic__costumers {
         display: grid;
         grid-column-start: 3;
