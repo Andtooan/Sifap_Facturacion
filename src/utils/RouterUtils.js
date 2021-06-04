@@ -21,6 +21,7 @@ const resolveRoute = (hash) => {
     : hash == "2fa" ? `/2fa`
     : hash == ":id" ? `/view/:id`
     : hash == "error404" ? `/error404`
+    : hash == "edit" ? `/edit`
     : '/';
   return route;
 }
