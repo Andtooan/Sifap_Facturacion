@@ -28,6 +28,10 @@ const Login = () => {
             <button class="registroMobil" type="submit">
               <a href="/#/signup">Registrarme</a>
             </button>
+
+            <button class="registro tablet" type="submit">
+            <a href="/#/signup">Registrarme</a>
+          </button>
           </form>
         </div>
       </div>
