@@ -48,6 +48,46 @@ const Dashboard = () => {
                   <td class="ocultoMobil">$ 12,400.60</td>
                   <td class="ocultoMobil"><img class="tamanoFlecha" src="./src/assets/Img/arrow.svg" /></td>
                 </tr>
+
+                <tr class="lineaTabla">
+                <th><img class="imagenTabla"  src="./src/assets/Img/factura.svg"/></th>
+                <td>Factura_Oficina_SA.pdf</td>
+                <td class="ocultoMobil">20/Enero/2021</td>
+                <td class="ocultoMobil">$ 12,400.60</td>
+                <td class="ocultoMobil"><img class="tamanoFlecha" src="./src/assets/Img/arrow.svg" /></td>
+              </tr>
+
+              <tr class="lineaTabla">
+              <th><img class="imagenTabla"  src="./src/assets/Img/factura.svg"/></th>
+              <td>Factura_Oficina_SA.pdf</td>
+              <td class="ocultoMobil">20/Enero/2021</td>
+              <td class="ocultoMobil">$ 12,400.60</td>
+              <td class="ocultoMobil"><img class="tamanoFlecha" src="./src/assets/Img/arrow.svg" /></td>
+            </tr>
+
+            <tr class="lineaTabla">
+            <th><img class="imagenTabla"  src="./src/assets/Img/factura.svg"/></th>
+            <td>Factura_Oficina_SA.pdf</td>
+            <td class="ocultoMobil">20/Enero/2021</td>
+            <td class="ocultoMobil">$ 12,400.60</td>
+            <td class="ocultoMobil"><img class="tamanoFlecha" src="./src/assets/Img/arrow.svg" /></td>
+          </tr>
+
+          <tr class="lineaTabla">
+          <th><img class="imagenTabla"  src="./src/assets/Img/factura.svg"/></th>
+          <td>Factura_Oficina_SA.pdf</td>
+          <td class="ocultoMobil">20/Enero/2021</td>
+          <td class="ocultoMobil">$ 12,400.60</td>
+          <td class="ocultoMobil"><img class="tamanoFlecha" src="./src/assets/Img/arrow.svg" /></td>
+        </tr>
+
+        <tr class="lineaTabla">
+        <th><img class="imagenTabla"  src="./src/assets/Img/factura.svg"/></th>
+        <td>Factura_Oficina_SA.pdf</td>
+        <td class="ocultoMobil">20/Enero/2021</td>
+        <td class="ocultoMobil">$ 12,400.60</td>
+        <td class="ocultoMobil"><img class="tamanoFlecha" src="./src/assets/Img/arrow.svg" /></td>
+      </tr>
               </tbody>
               </table>
     
