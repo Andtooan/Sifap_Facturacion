@@ -1,8 +1,10 @@
+import Aside from '../templates/Aside';
+
 const Dashboard = () => {
   const view = `
     <div class="main-dashboard">
       <aside>
-        <h2>Espacio para el aside</h2>
+        ${Aside()}
       </aside>
 
       <div class="facturaContent">
