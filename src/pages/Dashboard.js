@@ -26,67 +26,67 @@ const Dashboard = () => {
               <table>
               <tbody>
                 <tr class="lineaTabla">
-                  <th><img class="imagenTabla"  src="./src/assets/Img/factura.svg"/></th>
+                  <th><img class="imagenTabla"  src="https://ibb.co/fd8nZmV"/></th>
                   <td>Factura_Oficina_SA.pdf</td>
                   <td class="ocultoMobil">20/Enero/2021</td>
                   <td class="ocultoMobil">$ 12,400.60</td>
-                  <td class="ocultoMobil"><img class="tamanoFlecha" src="./src/assets/Img/arrow.svg" /></td>
+                  <td class="ocultoMobil"><img class="tamanoFlecha" src="https://ibb.co/c6C8qd3" /></td>
                 </tr>
                
                 <tr class="lineaTabla">
-                  <th><img class="imagenTabla"  src="./src/assets/Img/factura.svg"/></th>
+                  <th><img class="imagenTabla"  src="https://ibb.co/fd8nZmV"/></th>
                   <td>Factura_Oficina_SA.pdf</td>
                   <td class="ocultoMobil">20/Enero/2021</td>
                   <td class="ocultoMobil">$ 12,400.60</td>
-                  <td class="ocultoMobil"><img class="tamanoFlecha" src="./src/assets/Img/arrow.svg" /></td>
+                  <td class="ocultoMobil"><img class="tamanoFlecha" src="https://ibb.co/c6C8qd3" /></td>
                 </tr>
 
                 <tr class="lineaTabla">
-                  <th><img class="imagenTabla"  src="./src/assets/Img/factura.svg"/></th>
+                  <th><img class="imagenTabla"  src="https://ibb.co/fd8nZmV"/></th>
                   <td>Factura_Oficina_SA.pdf</td>
                   <td class="ocultoMobil">20/Enero/2021</td>
                   <td class="ocultoMobil">$ 12,400.60</td>
-                  <td class="ocultoMobil"><img class="tamanoFlecha" src="./src/assets/Img/arrow.svg" /></td>
+                  <td class="ocultoMobil"><img class="tamanoFlecha" src="https://ibb.co/c6C8qd3" /></td>
                 </tr>
 
                 <tr class="lineaTabla">
-                <th><img class="imagenTabla"  src="./src/assets/Img/factura.svg"/></th>
+                <th><img class="imagenTabla"  src="https://ibb.co/fd8nZmV"/></th>
                 <td>Factura_Oficina_SA.pdf</td>
                 <td class="ocultoMobil">20/Enero/2021</td>
                 <td class="ocultoMobil">$ 12,400.60</td>
-                <td class="ocultoMobil"><img class="tamanoFlecha" src="./src/assets/Img/arrow.svg" /></td>
+                <td class="ocultoMobil"><img class="tamanoFlecha" src="https://ibb.co/c6C8qd3" /></td>
               </tr>
 
               <tr class="lineaTabla">
-              <th><img class="imagenTabla"  src="./src/assets/Img/factura.svg"/></th>
+              <th><img class="imagenTabla"  src="https://ibb.co/fd8nZmV"/></th>
               <td>Factura_Oficina_SA.pdf</td>
               <td class="ocultoMobil">20/Enero/2021</td>
               <td class="ocultoMobil">$ 12,400.60</td>
-              <td class="ocultoMobil"><img class="tamanoFlecha" src="./src/assets/Img/arrow.svg" /></td>
+              <td class="ocultoMobil"><img class="tamanoFlecha" src="https://ibb.co/c6C8qd3" /></td>
             </tr>
 
             <tr class="lineaTabla">
-            <th><img class="imagenTabla"  src="./src/assets/Img/factura.svg"/></th>
+            <th><img class="imagenTabla"  src="https://ibb.co/fd8nZmV"/></th>
             <td>Factura_Oficina_SA.pdf</td>
             <td class="ocultoMobil">20/Enero/2021</td>
             <td class="ocultoMobil">$ 12,400.60</td>
-            <td class="ocultoMobil"><img class="tamanoFlecha" src="./src/assets/Img/arrow.svg" /></td>
+            <td class="ocultoMobil"><img class="tamanoFlecha" src="https://ibb.co/c6C8qd3" /></td>
           </tr>
 
           <tr class="lineaTabla">
-          <th><img class="imagenTabla"  src="./src/assets/Img/factura.svg"/></th>
+          <th><img class="imagenTabla"  src="https://ibb.co/fd8nZmV"/></th>
           <td>Factura_Oficina_SA.pdf</td>
           <td class="ocultoMobil">20/Enero/2021</td>
           <td class="ocultoMobil">$ 12,400.60</td>
-          <td class="ocultoMobil"><img class="tamanoFlecha" src="./src/assets/Img/arrow.svg" /></td>
+          <td class="ocultoMobil"><img class="tamanoFlecha" src="https://ibb.co/c6C8qd3" /></td>
         </tr>
 
         <tr class="lineaTabla">
-        <th><img class="imagenTabla"  src="./src/assets/Img/factura.svg"/></th>
+        <th><img class="imagenTabla"  src="https://ibb.co/fd8nZmV"/></th>
         <td>Factura_Oficina_SA.pdf</td>
         <td class="ocultoMobil">20/Enero/2021</td>
         <td class="ocultoMobil">$ 12,400.60</td>
-        <td class="ocultoMobil"><img class="tamanoFlecha" src="./src/assets/Img/arrow.svg" /></td>
+        <td class="ocultoMobil"><img class="tamanoFlecha" src="https://ibb.co/c6C8qd3" /></td>
       </tr>
               </tbody>
               </table>
