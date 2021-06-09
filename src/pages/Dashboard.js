@@ -12,7 +12,7 @@ const Dashboard = () => {
              <h2 class="generar">Generador de Facturas</h2>
 
              <div class="cuadro">
-                <img  src="./src/assets/Img/factura.svg"/>
+                <img  src="https://ibb.co/fd8nZmV"/>
                 <button class="botonFactura">Generar Factura</button>
              </div>
           </div>
