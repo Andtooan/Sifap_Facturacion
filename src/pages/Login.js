@@ -12,7 +12,7 @@ const Login = () => {
       </aside>
 
       <div class="registroContent">
-        <img class="imagenLogin" src="./src/assets/Img/login.svg" />
+        <img class="imagenLogin" src="https://ibb.co/FBjrcWy" />
         <figure class="logo-login">
           <img src="https://i.ibb.co/h1hs05Y/factura-master2.png" alt="logo master">
         </figure>
