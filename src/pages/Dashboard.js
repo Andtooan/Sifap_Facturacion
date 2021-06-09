@@ -95,7 +95,7 @@ const Dashboard = () => {
 
               <div class="imagenEstadisticas"> 
                   <div class="cajitaMobil">
-                    <img class="estadisticaImagen" src="./src/assets/Img/estadisticas.svg"/>
+                    <img class="estadisticaImagen" src="https://ibb.co/yqQJkdT"/>
                     <button class="botonEstadisticas">Ver estadisticas</button>
                   </div>
               </div> 
