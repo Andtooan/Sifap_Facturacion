@@ -3,7 +3,7 @@ const Login = () => {
     <div class="main-login">
       <aside class="aside">
         <figure class="logo-login">
-          <img src="https://i.ibb.co/h1hs05Y/factura-master2.png" alt="logo master">
+          <img src="https://ibb.co/hWDq6HY" alt="logo master">
         </figure>
         <h2 class="subtitulo">¿Aún no eres cliente?</h2>
         <button class="registro" type="submit">
