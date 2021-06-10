@@ -8,7 +8,7 @@ const Login = () => {
         </picture>}
         <h2 class="subtitulo">¿Aún no eres cliente?</h2>
         <button class="registro" type="submit">
-          <a href="/#/signup">Registrarme</a>
+          <a href="https://andtooan.github.io/Sifap_Facturacion/#/signup">Registrarme</a>
         </button>
       </aside>
 
@@ -24,7 +24,7 @@ const Login = () => {
             <input type="password" placeholder="Password" id="password-login" /><br />
 
             <button class="registro tablet" type="submit">
-            <a href="/#/signup">Registrarme</a>
+            <a href="https://andtooan.github.io/Sifap_Facturacion/#/signup">Registrarme</a>
           </button>
           </form>
           <button class="iniciarSesionbtn" id="btnLogin">Iniciar Sesión</button>

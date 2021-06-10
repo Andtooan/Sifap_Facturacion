@@ -8,6 +8,7 @@
 }
 .main-login {
     width: 100%;
+    height: auto;
     display: flex;
 
     a{
@@ -24,7 +25,7 @@
         @include telefono {
                 display: flex;
                 flex-direction: column;
-                height: 100vh;
+                height: auto;
                 background-color:$primary-color;
                 padding: 8rem;
                 flex: 0 0 30%;
@@ -35,7 +36,7 @@
             display: none;
         }
 
-        @media screen and (min-width:1200px) {
+        @media screen and (min-width:1024px) {
             display: flex;
         }
 
@@ -84,7 +85,7 @@
             flex: 0 0 100%
         }
 
-        @media screen and (min-width:1200px) {
+        @media screen and (min-width:1024px) {
             flex: 0 0 70%;
         }
 
@@ -161,51 +162,6 @@
                 box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
             }
 
-            .iniciarSesion{
-                padding: 1.5rem 4rem;
-                background-color:$primary-color;
-                border-radius: 50px;
-                border: none;
-                width: 100%;
-                font-size: 2rem;
-                margin-top: 34px;
-
-                a {
-                    color: white;
-                }
-
-                @include telefono {
-                    padding: 1.5rem 4rem;
-                    margin-top: 26%;
-                    background-color:$primary-color;
-                    border-radius: 50px;
-                    border: none;
-                    color: white;
-
-                    a {
-                        color: white;
-                    }
-                }
-            }
-
-            .registroMobil {
-                padding: 1.5rem 4rem;
-                border-radius: 50px;
-                border:none;
-                width: 50%;
-                align-self: center;
-                background-color:$primary-color;
-                width: 100%;
-                margin-top: 10px;
-
-                a {
-                    color: white;
-                }
-
-                @include telefono {
-                    display: none;
-                }
-            }
 
             @media screen and (max-width:468px) {
                 .tablet {
@@ -231,7 +187,7 @@
                     }
             }
 
-            @media screen and (min-width:1200px) {
+            @media screen and (min-width:1024px) {
                 .tablet {
                     display: none;
                 }
@@ -242,4 +198,45 @@
 
    }
 
+}
+.iniciarSesionbtn{
+    padding: 1.5rem 4rem;
+    background-color:$primary-color;
+    border-radius: 50px;
+    border: none;
+    width: 100%;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 34px;
+    color: white;
+
+    @include telefono {
+        padding: 1.5rem 4rem;
+        margin-top: 26%;
+        background-color:$primary-color;
+        border-radius: 50px;
+        border: none;
+        color: white;
+
+        a {
+            color: white;
+        }
+    }
+}
+.registroMobilbtn {
+    padding: 1.5rem 4rem;
+    border-radius: 50px;
+    border:none;
+    width: 50%;
+    align-self: center;
+    background-color:$primary-color;
+    width: 100%;
+    margin-top: 10px;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 600;
+
+    @include telefono {
+        display: none;
+    }
 }

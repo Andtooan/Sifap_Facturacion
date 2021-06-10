@@ -1,6 +1,10 @@
 import Aside from '../templates/Aside';
+const Resources = require('../resources/Resources')
 
-const Dashboard = () => {
+const Dashboard = async () => {
+  const company = localStorage.getItem('company_id')
+  const invoices = await Resources.getInvoices(company)
+  console.log(invoices)
   const view = `
     <div class="main-dashboard">
       <aside>
@@ -13,7 +17,7 @@ const Dashboard = () => {
 
           <div class="cuadro">
             <img src="https://i.ibb.co/KxNLBCc/factura.png" />
-            <button class="botonFactura"><a href="/#/generate">Generar Factura</a></button>
+            <button class="botonFactura"><a href="https://andtooan.github.io/Sifap_Facturacion/#/generate">Generar Factura</a></button>
           </div>
         </div>
 
@@ -24,59 +28,25 @@ const Dashboard = () => {
             <div class="tablaFacturas">
               <table>
                 <tbody>
-                  <tr class="lineaTabla">
-                    <th>
-                      <img
-                        class="imagenTabla"
-                        src="https://i.ibb.co/KxNLBCc/factura.png"
-                      />
-                    </th>
-                    <td>Factura_Oficina_SA.pdf</td>
-                    <td class="ocultoMobil">20/Enero/2021</td>
-                    <td class="ocultoMobil">$ 12,400.60</td>
-                    <td class="ocultoMobil">
-                      <img
-                        class="tamanoFlecha"
-                        src="https://i.ibb.co/jyWwtFf/Download.png"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr class="lineaTabla">
-                    <th>
-                      <img
-                        class="imagenTabla"
-                        src="https://i.ibb.co/KxNLBCc/factura.png"
-                      />
-                    </th>
-                    <td>Factura_Oficina_SA.pdf</td>
-                    <td class="ocultoMobil">20/Enero/2021</td>
-                    <td class="ocultoMobil">$ 12,400.60</td>
-                    <td class="ocultoMobil">
-                      <img
-                        class="tamanoFlecha"
-                        src="https://i.ibb.co/jyWwtFf/Download.png"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr class="lineaTabla">
-                    <th>
-                      <img
-                        class="imagenTabla"
-                        src="https://i.ibb.co/KxNLBCc/factura.png"
-                      />
-                    </th>
-                    <td>Factura_Oficina_SA.pdf</td>
-                    <td class="ocultoMobil">20/Enero/2021</td>
-                    <td class="ocultoMobil">$ 12,400.60</td>
-                    <td class="ocultoMobil">
-                      <img
-                        class="tamanoFlecha"
-                        src="https://i.ibb.co/jyWwtFf/Download.png"
-                      />
-                    </td>
-                  </tr>
+                  ${invoices.map(invoice => `
+                    <tr class="lineaTabla">
+                      <th>
+                        <img
+                          class="imagenTabla"
+                          src="https://i.ibb.co/KxNLBCc/factura.png"
+                        />
+                      </th>
+                      <td>${invoice.client}</td>
+                      <td class="ocultoMobil">${invoice.created_at}</td>
+                      <td class="ocultoMobil">$ ${invoice.total_price}</td>
+                      <td class="ocultoMobil">
+                        <img
+                          class="tamanoFlecha"
+                          src="https://i.ibb.co/jyWwtFf/Download.png"
+                        />
+                      </td>
+                    </tr>
+                  `).join('')}
                 </tbody>
               </table>
             </div>

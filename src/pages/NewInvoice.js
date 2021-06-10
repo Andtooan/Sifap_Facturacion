@@ -15,22 +15,21 @@ const NewInvoice = () => {
           <p>Agregar logo</p>
         </div>
         <div class="formulario-newinvoice">
-          <form action="">
+          <form action="" id="form-newInvoice">
             <h2>Datos cliente</h2>
-            <input type="text" placeholder="Nombre">
-            <input type="adress" placeholder="Dirección">
-            <input type="list" placeholder="País">
-            <input type="id" placeholder="ID">
+            <input type="text" placeholder="Nombre" name="client-name">
+            <input type="adress" placeholder="Dirección" name="client-address">
+            <input type="id" placeholder="ID" name="client-id">
             <h2>Conceptos</h2>
-            <input type="text" placeholder="Producto o servicio">
-            <input type="text" placeholder="Descripción">
-            <input type="text" placeholder="Cantidad">
-            <input type="text" placeholder="Precio unitario">
+            <input type="text" placeholder="Producto o servicio" name="product-name">
+            <input type="text" placeholder="Descripción" name="description">
+            <input type="text" placeholder="Cantidad" name="product-qty">
+            <input type="text" placeholder="Precio unitario" name="price">
           </form>
         </div>
         <div class="form-newinvoice-buttons">
-          <button>Cancelar</button>
-          <button>Generar</button>
+          <button><a href="https://andtooan.github.io/Sifap_Facturacion/#/dash">Cancelar</a></button>
+          <button id="btn-newInvoice">Generar</button>
         </div>
       </section>
     </div>
