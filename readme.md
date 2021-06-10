@@ -14,7 +14,7 @@
 
 #### Run localhost (console)
 
-	npm run start
+	- npm run start
 
 #### Create production archives
 
