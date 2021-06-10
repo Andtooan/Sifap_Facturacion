@@ -1,2 +1,0 @@
-# Sifap_Facturacion
-El propósito general de este proyecto es poder emitir los comprobantes fiscales de personas o instituciones de manera automática sin importar el país de procedencia al momento de generar facturas. Para llevar a cabo esta automatización el sistema contará con un mecanismo el cual permita configurar los componentes requeridos por cada comprobante requerido por país que necesite utilizar el sistema.
