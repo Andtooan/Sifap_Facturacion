@@ -18,4 +18,4 @@
 
 #### Create production archives
 
-	npm run build
+	- npm run build
