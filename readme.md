@@ -10,7 +10,7 @@
 
 #### Install all dependencies (console)
 
-	npm install
+	- npm install
 
 #### Run localhost (console)
 
