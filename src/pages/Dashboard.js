@@ -12,7 +12,7 @@ const Dashboard = () => {
              <h2 class="generar">Generador de Facturas</h2>
 
              <div class="cuadro">
-                <img  src="https://ibb.co/fd8nZmV"/>
+                <img  src="https://i.ibb.co/KxNLBCc/factura.png"/>
                 <button class="botonFactura">Generar Factura</button>
              </div>
           </div>
@@ -26,7 +26,7 @@ const Dashboard = () => {
               <table>
               <tbody>
                 <tr class="lineaTabla">
-                  <th><img class="imagenTabla"  src="https://ibb.co/fd8nZmV"/></th>
+                  <th><img class="imagenTabla"  src="https://i.ibb.co/KxNLBCc/factura.png"/></th>
                   <td>Factura_Oficina_SA.pdf</td>
                   <td class="ocultoMobil">20/Enero/2021</td>
                   <td class="ocultoMobil">$ 12,400.60</td>
@@ -34,7 +34,7 @@ const Dashboard = () => {
                 </tr>
                
                 <tr class="lineaTabla">
-                  <th><img class="imagenTabla"  src="https://ibb.co/fd8nZmV"/></th>
+                  <th><img class="imagenTabla"  src="https://i.ibb.co/KxNLBCc/factura.png"/></th>
                   <td>Factura_Oficina_SA.pdf</td>
                   <td class="ocultoMobil">20/Enero/2021</td>
                   <td class="ocultoMobil">$ 12,400.60</td>
@@ -42,7 +42,7 @@ const Dashboard = () => {
                 </tr>
 
                 <tr class="lineaTabla">
-                  <th><img class="imagenTabla"  src="https://ibb.co/fd8nZmV"/></th>
+                  <th><img class="imagenTabla"  src="https://i.ibb.co/KxNLBCc/factura.png"/></th>
                   <td>Factura_Oficina_SA.pdf</td>
                   <td class="ocultoMobil">20/Enero/2021</td>
                   <td class="ocultoMobil">$ 12,400.60</td>
@@ -50,7 +50,7 @@ const Dashboard = () => {
                 </tr>
 
                 <tr class="lineaTabla">
-                <th><img class="imagenTabla"  src="https://ibb.co/fd8nZmV"/></th>
+                <th><img class="imagenTabla"  src="https://i.ibb.co/KxNLBCc/factura.png"/></th>
                 <td>Factura_Oficina_SA.pdf</td>
                 <td class="ocultoMobil">20/Enero/2021</td>
                 <td class="ocultoMobil">$ 12,400.60</td>
@@ -58,7 +58,7 @@ const Dashboard = () => {
               </tr>
 
               <tr class="lineaTabla">
-              <th><img class="imagenTabla"  src="https://ibb.co/fd8nZmV"/></th>
+              <th><img class="imagenTabla"  src="https://i.ibb.co/KxNLBCc/factura.png"/></th>
               <td>Factura_Oficina_SA.pdf</td>
               <td class="ocultoMobil">20/Enero/2021</td>
               <td class="ocultoMobil">$ 12,400.60</td>
@@ -66,7 +66,7 @@ const Dashboard = () => {
             </tr>
 
             <tr class="lineaTabla">
-            <th><img class="imagenTabla"  src="https://ibb.co/fd8nZmV"/></th>
+            <th><img class="imagenTabla"  src="https://i.ibb.co/KxNLBCc/factura.png"/></th>
             <td>Factura_Oficina_SA.pdf</td>
             <td class="ocultoMobil">20/Enero/2021</td>
             <td class="ocultoMobil">$ 12,400.60</td>
@@ -74,7 +74,7 @@ const Dashboard = () => {
           </tr>
 
           <tr class="lineaTabla">
-          <th><img class="imagenTabla"  src="https://ibb.co/fd8nZmV"/></th>
+          <th><img class="imagenTabla"  src="https://i.ibb.co/KxNLBCc/factura.png"/></th>
           <td>Factura_Oficina_SA.pdf</td>
           <td class="ocultoMobil">20/Enero/2021</td>
           <td class="ocultoMobil">$ 12,400.60</td>
@@ -82,7 +82,7 @@ const Dashboard = () => {
         </tr>
 
         <tr class="lineaTabla">
-        <th><img class="imagenTabla"  src="https://ibb.co/fd8nZmV"/></th>
+        <th><img class="imagenTabla"  src="https://i.ibb.co/KxNLBCc/factura.png"/></th>
         <td>Factura_Oficina_SA.pdf</td>
         <td class="ocultoMobil">20/Enero/2021</td>
         <td class="ocultoMobil">$ 12,400.60</td>
