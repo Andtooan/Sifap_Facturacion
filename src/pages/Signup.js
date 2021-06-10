@@ -25,17 +25,18 @@ const Signup = async () => {
           <input type="text" placeholder="Teléfono" name="phone">
           <input type="email" placeholder="Correo" name="email">
           <input type="password" placeholder="Contraseña" name="password">
-          <input type="text" placeholder="Dirección" name="adress">
+          <input type="text" placeholder="Dirección" name="address">
           <select name="country-name" id="">
             ${countryIds.map((identification) => 
               `<option value='${identification.id}'>${identification.country} - ${identification.type}</option>`
             ).join('')}
           </select>
           <input type="text" placeholder="ID" name="id">
+          <input type="text" placeholder="name-company" name="company-name">
         </form>
         <div class="buttons-signup">
           <button id="btnRegister">Registrarme</button>
-          <button><a href="/">Iniciar sesión</a></button>
+          <button><a href="https://andtooan.github.io/Sifap_Facturacion/">Iniciar sesión</a></button>
         </div>
       </div>
     </div>

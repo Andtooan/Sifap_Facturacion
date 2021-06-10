@@ -64,6 +64,13 @@
   border-radius: 20px;
   cursor: pointer;
 }
+.form-newinvoice-buttons button a {
+  color: white;
+  text-decoration: none;
+}
+.form-newinvoice-buttons button a:focus {
+  text-decoration: underline;
+}
 
 @media (min-width: 768px) {
   .newinvoice-content {
