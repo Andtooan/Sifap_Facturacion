@@ -2,6 +2,11 @@
 
 The general purpose of this project is to be able to issue the tax invoices for natural or legal persons automatically regardless of the country of origin at the time of generating invoices. To carry out this automation, the system will have an algorithm that allows the cofiguration of the particular components required for each country.
 
+![Captura de Pantalla 2021-06-18 a la(s) 12 02 04](https://user-images.githubusercontent.com/72485462/122594772-189d4d80-d02d-11eb-91e2-80381fe26712.png)
+
+
+
+
 ## Features
 
 - Two-Factor Autentication login and sign in
